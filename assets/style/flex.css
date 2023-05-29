@@ -14,7 +14,32 @@
 .categorias__lista {
     display: flex;
     flex-direction: column;
-    row-gap: 0.5rem;
+    row-gap: .5rem;
+}
+
+/*destaques*/
+.destaques {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.destaques__barra {
+    flex-grow: 1;
+}
+
+/*eventos*/
+.eventos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.eventos__item {
+    flex-grow: 1;
+    max-width: 400px;
 }
 
 @media (min-widht: 720px) {
@@ -30,6 +55,10 @@
         flex-wrap: wrap;
         column-gap: 1.5rem;
         row-gap: 1rem;
+    }
+
+    .eventos__lista {
+        justify-content: end;
     }
 
 }
