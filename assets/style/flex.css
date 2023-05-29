@@ -3,4 +3,11 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    column-gap: 33px;
+}
+
+@media (min-widht: 720px) {
+    .menu {
+        column-gap: 75px;
+    }
 }
