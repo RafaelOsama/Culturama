@@ -46,13 +46,18 @@
 .agenda__lista {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 1rem;
     column-gap: 1.5rem;
+    row-gap: 1rem;
     justify-content: center;
 }
 
 .agenda__item {
     flex-grow: 1;
+}
+
+.agenda__botao__container {
+text-align: center;
+margin: 1em 0;
 }
 
 /*rodape*/
